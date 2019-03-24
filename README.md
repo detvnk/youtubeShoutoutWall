@@ -1,12 +1,12 @@
 # youtubeShoutoutWall
 A shoutout wall for youtube driven by live chat when viewers type !wall
 
-https://raw.githubusercontent.com/detvnk/youtubeShoutoutWall/master/youtubeShoutoutWall.html
-
 Join our Discord Channel for help 
 https://discord.gg/VApBfjv
 
 # Instructions on How to Setup
+
+First download and extract this repository to a local directory.
 
 1. a. First Add Nightbot to your channel: Use this link here.
 https://beta.nightbot.tv/
@@ -34,3 +34,6 @@ https://developers.google.com/youtube/v3/getting-started
 You need to open the html file in notepad editor to be able to do this.
 
 Enjoy
+
+Appendix:
+- https://raw.githubusercontent.com/detvnk/youtubeShoutoutWall/master/youtubeShoutoutWall.html
