@@ -16,7 +16,7 @@ https://community.nightdev.com/t/customapi-quote-system/7871
 
 3. Once you've done this you need to go to custom commands
 https://beta.nightbot.tv/commands/custom
-Copy the token from the one that says !addquote. You will need this in the next command.
+- Copy the token from the one that says !addquote. You will need this in the next command.
 
 4. Create a new command called !wall (or !set your choice) and change the  permissions to everyone
 
