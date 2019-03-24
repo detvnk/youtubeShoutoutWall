@@ -8,22 +8,22 @@ https://discord.gg/VApBfjv
 
 # Instructions on How to Setup
 
-1.a First Add Nightbot to your channel: Use this link here.
+1. a First Add Nightbot to your channel: Use this link here.
 https://beta.nightbot.tv/
 
-1.b Install the Custom Quote API system into your night bot by following these instructions
+1. b Install the Custom Quote API system into your night bot by following these instructions
 https://community.nightdev.com/t/customapi-quote-system/7871
 
-2.a Once you've done this you need to go to custom commands 
+2. a Once you've done this you need to go to custom commands 
 https://beta.nightbot.tv/commands/custom
 Copy the token from the one that says !addquote. You will need this in the next command.
 
-2.b Create a new command called !wall (or !set your choice) and change the  permissions to everyone
+2. b Create a new command called !wall (or !set your choice) and change the  permissions to everyone
 
-2.c --- then change the command to this  --- > 
+2. c --- then change the command to this  --- > 
 $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data=$(userid))
 
-2.d You need to change [your token here] to the token value you copied in step 2.a (note you must remove the square brackets too [])
+2. d You need to change [your token here] to the token value you copied in step 2.a (note you must remove the square brackets too [])
 
 3. The last thing you'll need is a google api key
 follow these instructions
