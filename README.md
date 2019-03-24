@@ -8,7 +8,7 @@ https://discord.gg/VApBfjv
 
 First download and extract this repository to a local directory.
 
-1. a. First Add Nightbot to your channel: Use this link here.
+1. a. Add Nightbot to your channel if you haven't already: Use this link here.
 https://beta.nightbot.tv/
 
 1. b. Install the Custom Quote API system into your night bot by following these instructions
