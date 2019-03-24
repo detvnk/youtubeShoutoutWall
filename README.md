@@ -4,7 +4,7 @@ A shoutout wall for youtube driven by live chat when viewers type !wall
 Join our Discord Channel for help 
 https://discord.gg/VApBfjv
 
-# Instructions on How to Setup
+## Instructions on How to Setup
 
 First download and extract this repository to a local directory.
 
@@ -21,7 +21,9 @@ Copy the token from the one that says !addquote. You will need this in the next 
 2. b. Create a new command called !wall (or !set your choice) and change the  permissions to everyone
 
 2. c. --- then change the command to this  --- >
+```
 $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data=$(userid))
+```
 
 2. d. You need to change [your token here] to the token value you copied in step 2.a (note you must remove the square brackets too [])
 
