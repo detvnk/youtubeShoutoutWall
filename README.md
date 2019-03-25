@@ -32,7 +32,7 @@ follow these instructions
   - https://www.slickremix.com/docs/get-api-key-for-youtube/
   - https://developers.google.com/youtube/v3/getting-started
 
-8. Insert the nightbot token value (this is not the one from 2.a but the one you'll find in !quote) and google api key in the html code and you're good to go (scroll down to script in the html file to find where to put them)
+8. Insert the nightbot token value (this is not the one from 3 but the one you'll find in !quote) and google api key in the html code and you're good to go (scroll down to script in the html file to find where to put them)
 You need to open the html file in notepad editor to be able to do this.
 
 Enjoy
