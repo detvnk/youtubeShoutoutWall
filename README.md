@@ -30,13 +30,13 @@ $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data
 7. The last thing you'll need is a google api key follow these instructions:
   - https://www.slickremix.com/docs/get-api-key-for-youtube/
   - https://developers.google.com/youtube/v3/getting-started
-Make sure to enable Youtube Data API v3
+  - Make sure to enable Youtube Data API v3
 
 8. Insert the nightbot token value (this is not the one from 3 but the one you'll find in !quote) and google api key in the config.js and you're good to go
 
 9. You need to open the html file in notepad editor to be able to do this.
 
-10. Run your command by visiting this link with your token inserted to check that the wall is working. https://twitch.center/customapi/addquote?token=[your token here]&UCL3SkASCKgaXwIin7kwy6zA
+10. Run your command by visiting this link with your token inserted to check that the wall is working. ```https://twitch.center/customapi/addquote?token=[your token here]&UCL3SkASCKgaXwIin7kwy6zA```
 
 Enjoy
 
