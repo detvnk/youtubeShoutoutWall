@@ -20,12 +20,12 @@ https://beta.nightbot.tv/commands/custom
 
 4. Create a new command called !wall (or !set your choice) and change the  permissions to everyone
 
-5. Then change the command to this - make sure to replace [your token here] with your token remove square brackets [ ]  --- >
+5. Then change the command to this - make sure to replace [your token here] with your token remove square brackets [_]  --- >
 ```
 $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data=$(userid))
 ```
 
-6. You need to change [your token here] to the token value you copied in step 3 (note you must remove the square brackets too [])
+6. You need to change [your token here] to the token value you copied in step 3 (note you must remove the square brackets too [_])
 
 7. The last thing you'll need is a google api key follow these instructions:
   - https://www.slickremix.com/docs/get-api-key-for-youtube/
