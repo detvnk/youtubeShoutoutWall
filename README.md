@@ -38,6 +38,9 @@ $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data
 
 10. Run your command by visiting this link with your token inserted to check that the wall is working. ```https://twitch.center/customapi/addquote?token=[your token here]&UCL3SkASCKgaXwIin7kwy6zA```
 
+Hint replace
+```[your token here]```
+
 Enjoy
 
 Appendix:
