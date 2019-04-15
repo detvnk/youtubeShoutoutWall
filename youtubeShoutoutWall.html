@@ -92,7 +92,7 @@
 			console.log(result);
 			channelList = result.split("\n").reverse();
 			channelListDedup = Array.from(new Set(channelList));
-			channelListSelected = channelListDedup.slice(0,Math.min(numberOfChannelsRounded,channelListDedup.length)).join("%2C");
+			channelListSelected = channelListDedup.slice(0,Math.min(numberOfChannelsRounded,channelListDedup.length)).join("%2C").replace(CONFIG.nightbotPrefix,'');
 
 				googleApiCallURL="https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics&id=" + channelListSelected + "&key=" + CONFIG.googleApiKeys[Math.floor(Math.random() * Math.floor(CONFIG.googleApiKeys.length))];
 				$.getJSON(googleApiCallURL, function(result){
