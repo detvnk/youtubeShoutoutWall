@@ -22,7 +22,7 @@ https://beta.nightbot.tv/commands/custom
 
 5. Then change the command to this - make sure to replace [your token here] with your token remove square brackets [_]  --- >
 ```
-$(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data=$(userid))
+$(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data=zzz$(userid))
 ```
 
 6. You need to change [your token here] to the token value you copied in step 3 (note you must remove the square brackets too [_])
@@ -36,7 +36,7 @@ $(urlfetch https://twitch.center/customapi/addquote?token=[your token here]&data
 
 9. You need to open the html file in notepad editor to be able to do this.
 
-10. Run your command by visiting this link with your token inserted to check that the wall is working. ```https://twitch.center/customapi/addquote?token=[your token here]&data=UCL3SkASCKgaXwIin7kwy6zA```
+10. Run your command by visiting this link with your token inserted to check that the wall is working. ```https://twitch.center/customapi/addquote?token=[your token here]&data=zzzUCL3SkASCKgaXwIin7kwy6zA```
 
 Hint replace
 ```[your token here]```
