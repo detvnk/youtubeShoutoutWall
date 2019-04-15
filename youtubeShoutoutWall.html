@@ -120,12 +120,25 @@
 		fn60sec();
 		setInterval(fn60sec, 1*60*1000);
 
-		/* To set up your own cors anywhere server set up a heroku account and commit the following code to it
-		git clone https://github.com/Rob--W/cors-anywhere.git
-		cd cors-anywhere/
-		npm install
-		heroku create
-		git push heroku master*/
+		/*  To set up your own CORS anywhere server set up a heroku account and commit the following code to it
+			git clone https://github.com/Rob--W/cors-anywhere.git
+			cd cors-anywhere/
+			npm install
+			heroku create
+			git push heroku master
+		*/
+
+		/*  Use Youtube API to read chat logs
+		
+			Get Video ID from Channel ID
+			https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=[channelId]&eventType=live&type=video&key=[key]
+
+			Get LivechatID
+			https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=[video ID]&key=[key]
+
+			Get Live Chat Data
+			https://www.googleapis.com/youtube/v3/liveChat/messages?liveChatId={liveChatId}&part=id%2C+snippet%2C+authorDetails&key={YOUR_API_KEY}
+		*/
 
 	</script>
 </body>
