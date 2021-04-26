@@ -1,3 +1,8 @@
+!! IMPORTANT !!
+
+Message on discord: JochemCoding#6255
+If you want a shoutout wall it is not for free!
+
 # youtubeShoutoutWall
 A shoutout wall for youtube driven by live chat when viewers type !wall
 
